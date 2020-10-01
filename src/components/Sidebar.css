@@ -1,0 +1,24 @@
+.Sidebar {
+	/* width: 20%; */
+	min-width: 250px;
+	max-width: 250px;
+    min-height: 700px;
+    max-height: 90vh;
+	background-color: #fff;
+}
+
+.sidebar__options {
+	height: 90%;
+	overflow-y: hidden;
+}
+
+.sidebar__options:hover {
+	overflow-y: auto;
+}
+
+.sidebar__division {
+	height: 1px;
+	border: 0;
+	background-color: lightgray;
+	margin: 10px 0;
+}

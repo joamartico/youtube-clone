@@ -1,0 +1,75 @@
+.VideoCard {
+	margin-bottom: 30px;
+	width: 264px;
+}
+
+.videoCard__image {
+	height: 140px;
+	width: 250px;
+}
+
+.videoCard__top {
+	display: flex;
+	align-items: center;
+	height: 30%;
+	width: 95%;
+	margin-bottom: -20px;
+	padding-bottom: 0;
+}
+
+.videoCard__top > h4 {
+	font-size: 14px;
+}
+
+.videoCard__text {
+	margin-left: 40px;
+	margin-right: 15px;
+	margin-top: 0;
+	margin-bottom: auto;
+	height: 40px;
+	width: 80%;
+}
+
+.videoCard__text > p {
+	font-size: 14px;
+	color: gray;
+	margin-right: auto;
+}
+
+.videoCard__avatar {
+	height: 30px !important;
+	width: 30px !important;
+}
+
+.videoCard__channelTitle {
+	margin-bottom: -10px;
+}
+			.videoCard__top > h4 {
+				margin-left: 10px;
+			}
+
+@media (max-width: 950px) {
+	.VideoCard {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.videoCard__image {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		object-fit: contain;
+	}
+	
+	.videoCard__text {
+		display: flex;
+		margin-left: 50px;
+	}
+	
+	.videoCard__top{
+		margin-left: 10px;
+		height: fit-content;
+	}
+
+}

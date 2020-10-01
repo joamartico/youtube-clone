@@ -1,0 +1,20 @@
+.RecomendedVideos {
+    padding:20px 15px 20px 20px;
+    width: 100%;
+}
+
+
+
+.recomendedVideos__videos {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+@media(max-width: 950px){
+    .RecomendedVideos {
+        padding:0px 0;
+        width: 100%;
+    }
+}

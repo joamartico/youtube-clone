@@ -1,0 +1,35 @@
+.SearchResults {
+	padding: 10px;
+	width: 100%;
+}
+
+.searchResults__body {
+	overflow-y: auto;
+	height: 75vh;
+}
+
+.searchResults__filter {
+	display: flex;
+	align-items: center;
+	color: #606060;
+	font-size: xx-small !important;
+}
+
+.searchResults__filter > h2 {
+	margin-left: 10px;
+}
+
+.SearchResults > hr {
+	height: 1px;
+	border: 0;
+	background-color: lightgray;
+	margin: 10px 0;
+}
+
+@media (max-width: 950px) {
+	.SearchResults {
+		display: flex;
+		flex-direction: column;
+		overflow-y: hidden;
+	}
+}
